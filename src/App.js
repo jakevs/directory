@@ -1,10 +1,12 @@
 import React from "react";
 import Example from "./components/Navbar";
+import Foot from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Example />
+      <Foot />
     </div>
   );
 }
