@@ -21,7 +21,7 @@ const ExampleCard = (props) => {
         />
         <CardBody>
           <CardTitle>Employee Directory</CardTitle>
-          <Table>
+          <Table dark>
             <thead>
               <tr>
                 <th>ID</th>
