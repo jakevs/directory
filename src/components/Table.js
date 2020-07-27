@@ -5,7 +5,6 @@ import {
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
   Button,
   Table
 } from "reactstrap";
@@ -17,7 +16,7 @@ const ExampleCard = (props) => {
         <CardImg
           top
           width="100%"
-          src="/assets/318x180.svg"
+          src="https://cdn.iveybusinessjournal.com/wp-content/uploads/2006/03/iStock_000012204568_Large.jpg"
           alt="Card image cap"
         />
         <CardBody>
@@ -52,12 +51,11 @@ const ExampleCard = (props) => {
               </tr>
             </tbody>
           </Table>
-          <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Use the search button to find information about individual employees
+            at our company!
           </CardText>
-          <Button>Button</Button>
+          <Button>Search Directory</Button>
         </CardBody>
       </Card>
     </div>

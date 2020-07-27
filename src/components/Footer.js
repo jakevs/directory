@@ -5,7 +5,7 @@ const Foot = (props) => {
   return (
     <div>
       <Card>
-        <CardFooter className="text-muted">Footer</CardFooter>
+        <CardFooter className="text-muted">JVSIII</CardFooter>
       </Card>
     </div>
   );
