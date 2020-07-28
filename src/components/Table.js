@@ -39,12 +39,18 @@ const ExampleCard = (props) => {
               </tr>
               <tr>
                 <th scope="row">2</th>
+                <td>Molly</td>
+                <td>Van Slyke</td>
+                <td>@mvs</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
                 <td>Madeline</td>
                 <td>Van Slyke</td>
                 <td>@girl</td>
               </tr>
               <tr>
-                <th scope="row">3</th>
+                <th scope="row">4</th>
                 <td>Grayson</td>
                 <td>Van Slyke</td>
                 <td>@boy</td>
