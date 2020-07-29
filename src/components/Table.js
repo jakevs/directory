@@ -1,4 +1,6 @@
 import React from "react";
+import Row from "./Row";
+import getEmployees from "../utils/Api";
 import {
   Card,
   CardImg,
@@ -9,8 +11,11 @@ import {
   Table
 } from "reactstrap";
 
-const ExampleCard = (props) => {
+const ExampleCard = async () => {
+  // const data = await getEmployees;
   const data = [];
+  console.log(getEmployees());
+
   return (
     <div>
       <Card>
@@ -31,9 +36,19 @@ const ExampleCard = (props) => {
                 <th>Username</th>
               </tr>
             </thead>
-            <tbody>{data.map((obj,i) => {
-              return ()
-            })}</tbody>
+            <tbody>
+              {data.map((obj, i) => {
+                return (
+                  <Row
+                    key={i}
+                    id={obj.id}
+                    firstName={obj.firstName}
+                    lastName={obj.lastName}
+                    username={obj.username}
+                  />
+                );
+              })}
+            </tbody>
           </Table>
           <CardText>
             Use the search button to find information about individual employees
