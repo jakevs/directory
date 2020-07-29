@@ -11,7 +11,7 @@ import {
   Table
 } from "reactstrap";
 
-const ExampleCard = async () => {
+const ExampleCard = () => {
   // const data = await getEmployees;
   const data = [];
   console.log(getEmployees());
@@ -41,10 +41,10 @@ const ExampleCard = async () => {
                 return (
                   <Row
                     key={i}
-                    id={obj.id}
-                    firstName={obj.firstName}
-                    lastName={obj.lastName}
-                    username={obj.username}
+                    id={obj.registered.date}
+                    firstName={obj.name.first}
+                    lastName={obj.name.last}
+                    username={obj.login.username}
                   />
                 );
               })}
