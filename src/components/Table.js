@@ -41,10 +41,10 @@ const ExampleCard = () => {
                 return (
                   <Row
                     key={i}
-                    id={obj.registered.date}
-                    firstName={obj.name.first}
-                    lastName={obj.name.last}
-                    username={obj.login.username}
+                    id={obj.id}
+                    firstName={obj.firstName}
+                    lastName={obj.lastName}
+                    username={obj.username}
                   />
                 );
               })}
