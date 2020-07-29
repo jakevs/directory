@@ -10,6 +10,7 @@ import {
 } from "reactstrap";
 
 const ExampleCard = (props) => {
+  const data = [];
   return (
     <div>
       <Card>
@@ -30,32 +31,9 @@ const ExampleCard = (props) => {
                 <th>Username</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>James</td>
-                <td>Van Slyke</td>
-                <td>@jvs</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Molly</td>
-                <td>Van Slyke</td>
-                <td>@mvs</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td>Madeline</td>
-                <td>Van Slyke</td>
-                <td>@girl</td>
-              </tr>
-              <tr>
-                <th scope="row">4</th>
-                <td>Grayson</td>
-                <td>Van Slyke</td>
-                <td>@boy</td>
-              </tr>
-            </tbody>
+            <tbody>{data.map((obj,i) => {
+              return ()
+            })}</tbody>
           </Table>
           <CardText>
             Use the search button to find information about individual employees
