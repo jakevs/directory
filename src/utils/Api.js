@@ -3,11 +3,11 @@ import axios from "axios";
 
 const getEmployees = () => {
   axios.get("https://randomuser.me/api/?results=10").then((res) => {
-    const persons = res.data;
+    const persons = res.data.results;
     console.log(persons);
 
     // this.setState({ persons });
-    return res;
+    return persons;
   });
 };
 export default getEmployees;

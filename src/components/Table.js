@@ -11,10 +11,11 @@ import {
   Table
 } from "reactstrap";
 
-const ExampleCard = () => {
+const ExampleCard = async () => {
   // const data = await getEmployees;
-  const data = [];
-  console.log(getEmployees());
+  let data = [];
+  data = getEmployees();
+  console.log(data);
 
   return (
     <div>
