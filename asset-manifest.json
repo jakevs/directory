@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/jakevs/directory.git/static/js/main.180bc3d1.chunk.js",
+    "main.js.map": "/jakevs/directory.git/static/js/main.180bc3d1.chunk.js.map",
+    "runtime-main.js": "/jakevs/directory.git/static/js/runtime-main.27f1ffa8.js",
+    "runtime-main.js.map": "/jakevs/directory.git/static/js/runtime-main.27f1ffa8.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/jakevs/directory.git/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.f60e4bee.chunk.js": "/jakevs/directory.git/static/js/2.f60e4bee.chunk.js",
+    "static/js/2.f60e4bee.chunk.js.map": "/jakevs/directory.git/static/js/2.f60e4bee.chunk.js.map",
+    "index.html": "/jakevs/directory.git/index.html",
+    "precache-manifest.4218fc7a4e479f870b871a40be0d7c19.js": "/jakevs/directory.git/precache-manifest.4218fc7a4e479f870b871a40be0d7c19.js",
+    "service-worker.js": "/jakevs/directory.git/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/jakevs/directory.git/static/css/2.af3c1da9.chunk.css.map",
+    "static/js/2.f60e4bee.chunk.js.LICENSE.txt": "/jakevs/directory.git/static/js/2.f60e4bee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27f1ffa8.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.f60e4bee.chunk.js",
+    "static/js/main.180bc3d1.chunk.js"
+  ]
+}
