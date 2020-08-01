@@ -11,7 +11,6 @@ The UI was broken up into components and is user responsive. This application wa
 
 - [Deployed Site](#deployed-site)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
@@ -29,14 +28,6 @@ To install necessary dependencies, run the following command:
 
 ```
 npm i
-```
-
-## Usage
-
-It is an open project and everyone can contribute! Run the following command to use command line:
-
-```
-node server.js
 ```
 
 ## Contributing
