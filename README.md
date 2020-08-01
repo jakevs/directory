@@ -1,6 +1,6 @@
 # My Directory
 
-[![GitHub license](https://img.shields.io/badge/ET-brown.svg)](https://github.com/jakevs/directory)
+[![GitHub license](https://img.shields.io/badge/MyDiReCtOrY-brown.svg)](https://github.com/jakevs/directory)
 
 ## Description
 

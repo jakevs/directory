@@ -47,6 +47,7 @@ class ExampleCard extends Component {
                   <th>First Name</th>
                   <th>Last Name</th>
                   <th>Username</th>
+                  <th>City</th>
                 </tr>
               </thead>
               <tbody>
@@ -54,10 +55,11 @@ class ExampleCard extends Component {
                   return (
                     <Row
                       key={obj.login.uuid}
-                      id={obj.login.uuid}
+                      id={obj.location.street.number}
                       firstName={obj.name.first}
                       lastName={obj.name.last}
                       username={obj.login.username}
+                      cityName={obj.location.city}
                     />
                   );
                 })}
