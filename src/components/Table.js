@@ -39,7 +39,7 @@ class ExampleCard extends Component {
             alt="Card image cap"
           />
           <CardBody>
-            <CardTitle>Employee Directory</CardTitle>
+            <CardTitle id="employees">Employee Directory</CardTitle>
             <Table dark>
               <thead>
                 <tr>
@@ -65,11 +65,6 @@ class ExampleCard extends Component {
                 })}
               </tbody>
             </Table>
-            <CardText>
-              Use the search button to find information about individual
-              employees at our company!
-            </CardText>
-            <Button>Search Directory</Button>
           </CardBody>
         </Card>
       </div>

@@ -27,20 +27,18 @@ const Example = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Employees</NavLink>
+              <NavLink href="#employees">Employees</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
-                Personal
-              </NavLink>
+              <NavLink href="https://github.com/jakevs">Personal</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Search
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>Filter</DropdownItem>
-                <DropdownItem>Sort by Name</DropdownItem>
+                <DropdownItem>Filter!</DropdownItem>
+                <DropdownItem>Sort!</DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>Reset</DropdownItem>
               </DropdownMenu>
