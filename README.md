@@ -19,7 +19,7 @@ The UI was broken up into components and is user responsive. This application wa
 To inspect the live application, follow the link:
 
 ```
-https://my-directory.herokuapp.com/
+https://jakevs.github.io/directory/
 ```
 
 ## Installation
