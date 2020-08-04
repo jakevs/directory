@@ -9,10 +9,17 @@ export default function Search(props) {
           onChange={props.handleInputChange}
           className="form-control"
           type="text"
-          placeholder="Filter by Last Name"
+          placeholder="Type Here!"
         />
       </form>
-      <button>Filter!</button>
+      <button
+        className="btn"
+        type="button"
+        id="sortBtn"
+        onClick={this.sortOnClick}
+      >
+        Search
+      </button>
     </div>
   );
 }

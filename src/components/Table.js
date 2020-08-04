@@ -2,15 +2,7 @@ import React, { Component } from "react";
 import Row from "./Row";
 import axios from "axios";
 // import getEmployees from "../utils/Api";
-import {
-  Card,
-  CardImg,
-  CardText,
-  CardBody,
-  CardTitle,
-  Button,
-  Table
-} from "reactstrap";
+import { Card, CardImg, CardBody, CardTitle, Table } from "reactstrap";
 
 class ExampleCard extends Component {
   constructor(props) {
@@ -27,6 +19,20 @@ class ExampleCard extends Component {
       this.setState({ employees: results });
     });
   }
+
+  //sortfunction
+  handleInputChange = (event) => {
+    const value = event.target.value;
+    const name = event.target.name;
+    this.setState({ [name]: value });
+  };
+
+  sortOnClick = () => {
+    const sorted = this.state.employees.sort((a, b) =>
+      a.name.last > b.name.last ? 1 : b.name.last > a.name.last ? -1 : 0
+    );
+    this.setState({ employees: sorted });
+  };
 
   render() {
     return (
