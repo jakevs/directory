@@ -36,6 +36,8 @@ Please send an email if you wish to contribute.
 
 ## Questions
 
-  <img src="https://avatars.githubusercontent.com/jakevs" style="width: 10px; height: 10px; border-radius:75%;">
+   <div class="CircleBadge CircleBadge--medium bg-gray-dark">
+   <img src="https://avatars.githubusercontent.com/jakevs" height="90" width="90">   
+   </div>
 
 If you have any questions about the repository, or an open issue, please contact [jakevs](https://github.com/jakevs/) directly at jakevs3@gmail.com.
