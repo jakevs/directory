@@ -3,7 +3,7 @@ import React from "react";
 export default function Search(props) {
   return (
     <div>
-      <form onSubmit={props.ignoreSubmit} className="form-inline">
+      <form className="form-inline">
         <input
           value={props.search}
           onChange={props.handleInputChange}
@@ -16,7 +16,7 @@ export default function Search(props) {
         className="btn"
         type="button"
         id="sortBtn"
-        onClick={this.sortOnClick}
+        onClick={() => props.sortOnClick}
       >
         Search
       </button>
