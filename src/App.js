@@ -37,7 +37,10 @@ function App() {
     }
     const filteredArray = results.filter((obj) => {
       console.log(obj.name.first);
-      return obj.name.first.toLowerCase().includes(search.toLowerCase());
+      return (
+        obj.name.first.toLowerCase().includes(search.toLowerCase()) ||
+        obj.name.last.toLowerCase().includes(search.toLowerCase())
+      );
     });
     if (search === "") {
       setFilteredArray(results);
